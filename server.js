@@ -98,8 +98,7 @@ app.post('/api/sendMessage', async (req, res) => {
   {
     chat_id: CHAT_ID,
     text: message,
-    parse_mode: 'HTML',
-    reply_markup: keyboard
+    parse_mode: 'HTML'
   },
   { httpsAgent: agent }
 );
@@ -126,8 +125,7 @@ app.post('/api/sendMessage2', async (req, res) => {
   {
     chat_id: CHAT_ID,
     text: message,
-    parse_mode: 'HTML',
-    reply_markup: keyboard
+    parse_mode: 'HTML'
   },
   { httpsAgent: agent }
 );
